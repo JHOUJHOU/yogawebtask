@@ -9,12 +9,65 @@ a{
 *,*::before,*::after{
     box-sizing: border-box;
 }
-ul,li,.row,h1,h2,h3,h4,h5,h6{
+ul,li,.row,h1,h2,h3,h4,h5,h6,p{
     margin: 0px;
     padding: 0px;
+}
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0px 15px;
 }
 .text-hidden{
     text-indent: 101%;
 	white-space: nowrap;
 	overflow: hidden;
 }
+.h-100{
+    height: 100%;
+}
+.h-786{
+    height: 786px;
+}
+.h-210{
+    height: 210px;
+}
+.h-md-444{
+    @media(min-width: 768px){
+        height: 444px;
+    }
+}
+.ms-md-30{
+    @media(min-width: 768px){
+        margin-left: 30px;
+    }
+}
+.mb-md-30{
+    @media(min-width: 768px){
+        margin-bottom: 30px;
+    }
+}
+.mb-md-64{
+    @media(min-width: 768px){
+        margin-bottom: 64px;
+    }
+    
+}
+.py-md-64{
+    @media(min-width: 768px){
+        padding-top: 64px;
+        padding-bottom: 64px;
+    }
+}
+.py-sm-56{
+    @media(min-width: 345px){
+        padding-top: 56px;
+        padding-bottom: 56px;
+    }
+}
+.pe-md-57{
+    @media(min-width: 768px){
+        padding-right: 57px;
+    }
+}
+

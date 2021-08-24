@@ -4,3 +4,48 @@
   background-position: bottom center;
   height: 582px;
 }
+.fitness{
+  background: url("https://hexschool.github.io/webLayoutTraining1st/yoga-week8/photo-1593810450967-f9c42742e326.jpeg") no-repeat;
+  background-size: cover;
+  background-position: bottom center;
+  height: 420px;
+}
+.relax{
+  background: url("https://hexschool.github.io/webLayoutTraining1st/yoga-week8/photo-1593810451137-5dc55105dace.jpeg") no-repeat;
+  background-size: cover;
+  background-position: bottom center;
+  height: 420px;
+}
+.sculpture{
+  background: url("https://hexschool.github.io/webLayoutTraining1st/yoga-week8/photo-1599901860904-17e6ed7083a0.jpeg") no-repeat;
+  background-size: cover;
+  background-position: bottom center;
+  height: 420px;
+  @media(min-width: 345px){
+    height: 210px;
+  }
+}
+.space-yoga{
+  background: url("https://hexschool.github.io/webLayoutTraining1st/yoga-week8/carl-barcelo-nqUHQkuVj3c-unsplash.jpg") no-repeat;
+  background-size: cover;
+  background-position: bottom center;
+  height: 444px;
+}
+.space-syoga{
+  background: url("https://hexschool.github.io/webLayoutTraining1st/yoga-week8/carl-barcelo-nqUHQkuVj3c-unsplash.jpg") no-repeat;
+  background-size: cover;
+  background-position: bottom center;
+  height: 210px;
+}
+.space-relax{
+  background: url("https://hexschool.github.io/webLayoutTraining1st/yoga-week8/white round table near brown wooden chair.jpg") no-repeat;
+  background-size: cover;
+  background-position: bottom center;
+  height: 207px;
+}
+.space-sport{
+  background: url("https://hexschool.github.io/webLayoutTraining1st/yoga-week8/woman in black sports bra and blue denim jeans doing yoga.jpg") no-repeat;
+  background-size: cover;
+  background-position: bottom center;
+  height: 207px;
+}
