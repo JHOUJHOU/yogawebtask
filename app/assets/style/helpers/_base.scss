@@ -9,9 +9,13 @@ a{
 *,*::before,*::after{
     box-sizing: border-box;
 }
-ul,li,.row,h1,h2,h3,h4,h5,h6,p{
-    margin: 0px;
-    padding: 0px;
+ul,li,h1,h2,h3,h4,h5,h6,p{
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+.row{
+    margin: 0px 0px;
+    padding: 0px 0px;
 }
 .container{
     max-width: 1140px;
@@ -31,6 +35,31 @@ ul,li,.row,h1,h2,h3,h4,h5,h6,p{
 }
 .h-210{
     height: 210px;
+}
+.h-165{
+    height: 165px;
+}
+.h-238{
+    height: 238px;
+}
+.user-w-h-60{
+    width: 60px;
+    height: 60px;
+}
+.h-sm-238{
+    @media(min-width: 345px){
+        height: 238px;
+    }
+}
+.h-sm-445{
+    @media(min-width: 345px){
+        height: 445px;
+    }
+}
+.h-md-150{
+    @media(min-width: 768px){
+        height: 150px;
+    }
 }
 .h-md-444{
     @media(min-width: 768px){
@@ -59,9 +88,19 @@ ul,li,.row,h1,h2,h3,h4,h5,h6,p{
         padding-bottom: 64px;
     }
 }
+.pb-md-64{
+    @media(min-width: 768px){
+        padding-bottom: 64px;
+    }
+}
 .py-sm-56{
     @media(min-width: 345px){
         padding-top: 56px;
+        padding-bottom: 56px;
+    }
+}
+.pb-sm-56{
+    @media(min-width: 345px){
         padding-bottom: 56px;
     }
 }
@@ -70,4 +109,12 @@ ul,li,.row,h1,h2,h3,h4,h5,h6,p{
         padding-right: 57px;
     }
 }
-
+.py-14{
+    padding: 14px 0px;
+}
+.ps-6{
+    padding-left: 6px;
+}
+.w-350{
+    width: 350px;
+}
