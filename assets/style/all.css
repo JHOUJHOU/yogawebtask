@@ -60,15 +60,14 @@ ul, li, h1, h2, h3, h4, h5, h6, p {
   height: 60px;
 }
 
-@media (min-width: 345px) {
-  .h-sm-238 {
-    height: 238px;
-  }
+.course-w-h-150 {
+  width: 150px;
+  height: 150px;
 }
 
 @media (min-width: 345px) {
-  .h-sm-445 {
-    height: 445px;
+  .h-sm-238 {
+    height: 238px;
   }
 }
 
@@ -220,7 +219,7 @@ ul, li, h1, h2, h3, h4, h5, h6, p {
 }
 
 .course-sec {
-  background: url("https://hexschool.github.io/webLayoutTraining1st/yoga-week8/woman in black sports bra and black leggings doing yoga.jpg") no-repeat;
+  background: url("https://hexschool.github.io/webLayoutTraining1st/yoga-week8/photo-1593810450967-f9c42742e326.jpeg") no-repeat;
   background-size: cover;
   background-position: center center;
 }
