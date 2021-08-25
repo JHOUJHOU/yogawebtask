@@ -46,14 +46,14 @@ ul,li,h1,h2,h3,h4,h5,h6,p{
     width: 60px;
     height: 60px;
 }
+.course-w-h-150{
+    width: 150px;
+    height: 150px;
+}
+
 .h-sm-238{
     @media(min-width: 345px){
         height: 238px;
-    }
-}
-.h-sm-445{
-    @media(min-width: 345px){
-        height: 445px;
     }
 }
 .h-md-150{
@@ -118,3 +118,18 @@ ul,li,h1,h2,h3,h4,h5,h6,p{
 .w-350{
     width: 350px;
 }
+
+// 精心設計、課程多元
+// .h-150{
+//     height: 150px;
+//     @include media-breakpoint-up(xs) {
+//         .h-xs-165{
+//             height: 165px;
+//         }
+//     }
+//     @include media-breakpoint-up(md) {
+//         .h-sm-445{
+//             height: 445px;
+//         }
+//     }
+// }
