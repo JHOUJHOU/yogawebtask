@@ -1,0 +1,109 @@
+$utilities: (
+    "width": (
+        property: width,
+        class: w,
+        responsive: true,
+        values: (
+            25: 25%,
+            30: 30%,
+            50: 50%,
+            75: 75%,
+            100: 100%,
+            auto: auto,
+            36:36px,
+            150:150px,
+            165:165px,
+            330:330px,
+            445:445px
+        )
+    ),
+    "height": (
+        property: height,
+        class: h,
+        responsive: true,
+        values: (
+            25: 25%,
+            50: 50%,
+            75: 75%,
+            100: 100%,
+            auto: auto,
+            36:36px,
+            150:150px,
+            238:238px,
+            165:165px,
+            215:215px,
+            445:445px,
+            628:628px
+        )
+    ),
+    "margin-x": (
+        responsive: true,
+        property: margin-right margin-left,
+        class: mx,
+        values: map-merge($spacers, 
+            (
+                auto: auto,
+                15:15px,
+                30:30px
+            )
+        )
+    ),
+    "margin-top": (
+        responsive: true,
+        property: margin-top,
+        class: mt,
+        values: map-merge($spacers, 
+            (
+                auto: auto,
+                64:64px
+            )
+        )
+    ),
+    "margin-bottom": (
+        responsive: true,
+        property: margin-bottom,
+        class: mb,
+        values: map-merge($spacers, 
+            (
+                auto: auto,
+                72:72px,
+                80:80px,
+                88:88px,
+                104:104px
+            )
+        )
+    ),
+    // "padding-x": (
+    //     responsive: true,
+    //     property: padding-right padding-left,
+    //     class: px,
+    //     values:
+    //     (
+
+    //     )
+    // ),
+    "padding-y": (
+        responsive: true,
+        property: padding-top padding-bottom,
+        class: py,
+        values:
+        (
+            12:12px
+        )
+    ),
+    "padding-bottom": (
+        responsive: true,
+        property: padding-bottom,
+        class: pb,
+        values:
+        (
+            64:64px
+        )
+    ),
+    "overflow": (
+        responsive: true,
+        property: overflow-y,
+        class: overflow-y,
+        values: auto hidden visible scroll,
+    ),
+);

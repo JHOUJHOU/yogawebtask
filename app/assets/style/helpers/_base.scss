@@ -27,21 +27,26 @@ ul,li,h1,h2,h3,h4,h5,h6,p{
 	white-space: nowrap;
 	overflow: hidden;
 }
-.h-100{
-    height: 100%;
+.overflow-x{
+    background-color: lightblue;
+    width: 100%;
+    overflow-x: auto;
 }
+// .h-100{
+//     height: 100%;
+// }
 .h-786{
     height: 786px;
 }
 .h-210{
     height: 210px;
 }
-.h-165{
-    height: 165px;
-}
-.h-238{
-    height: 238px;
-}
+// .h-165{
+//     height: 165px;
+// }
+// .h-238{
+//     height: 238px;
+// }
 .user-w-h-60{
     width: 60px;
     height: 60px;
@@ -50,17 +55,21 @@ ul,li,h1,h2,h3,h4,h5,h6,p{
     width: 150px;
     height: 150px;
 }
-
-.h-sm-238{
-    @media(min-width: 345px){
-        height: 238px;
-    }
-}
-.h-md-150{
-    @media(min-width: 768px){
-        height: 150px;
-    }
-}
+// .h-lg-445{
+//     @media(min-width: 768px){
+//         height: 445px;
+//     }
+// }
+// .h-sm-238{
+//     @media(min-width: 345px){
+//         height: 238px;
+//     }
+// }
+// .h-md-150{
+//     @media(min-width: 768px){
+//         height: 150px;
+//     }
+// }
 .h-md-444{
     @media(min-width: 768px){
         height: 444px;
@@ -119,17 +128,3 @@ ul,li,h1,h2,h3,h4,h5,h6,p{
     width: 350px;
 }
 
-// 精心設計、課程多元
-// .h-150{
-//     height: 150px;
-//     @include media-breakpoint-up(xs) {
-//         .h-xs-165{
-//             height: 165px;
-//         }
-//     }
-//     @include media-breakpoint-up(md) {
-//         .h-sm-445{
-//             height: 445px;
-//         }
-//     }
-// }

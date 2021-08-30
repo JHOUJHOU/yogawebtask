@@ -1,0 +1,77 @@
+---
+title: 瑜珈官網-填寫完成-第八週主任務
+layout: ./app/layout.ejs
+engine: ejs
+current: finish
+---
+
+<!-- 立即預訂 -->
+<div class="contaier-lg mt-sm-64 mt-9">
+    <h2 class="fs-2 text-primary text-center mb-sm-3 mb-5">立即預約</h2>
+</div>
+
+<!-- 填寫進度 -->
+<div class="container-lg mb-lg-6 mb-sm-5 mb-6">
+    <div class="d-flex justify-content-center">
+        <ul class="list-unstyled d-flex justify-content-center ">
+            <li class="rounded rounded-5 mx-sm-30">
+                <a class="btn btn-light text-primary fs-5 py-12 px-9" href="order.html">選擇方案</a>
+            </li>
+            <li class="rounded rounded-5 mx-sm-30">
+                <a class="btn bg-light text-primary fs-5 py-12 px-9 " href="information.html">填寫資料</a>
+            </li>
+            <li class="rounded rounded-5 mx-sm-30">
+                <a class="btn btn-primary text-white fs-5 py-12 px-9" href="finish.html">完成預約</a>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<!-- 完成預約 -->
+<div class="container-lg">
+    <div class="material-icons fs-1 text-primary mb-2 d-flex justify-content-center">
+        check_circle_outline
+    </div>
+    <p class="fs-4 mb-6 text-center">已完成預約，以下是您的預約資訊:</p>
+    <div class="row">
+        <div class="col-lg-3 col-sm-2"></div>
+        <div class="col-lg-6 col-sm-8 col-12 mb-5">
+            <div class="accordion border border-secondary" id="accordionPanelsStayOpenExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                        <button class="accordion-button bg-primary text-white " type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                            預約資訊
+                        </button>
+                    </h2>
+                </div>
+                <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                    <div class="accordion-body ">
+                        <ul class="list-unstyled fs-5 text-primary">
+                            <li class="mb-3">您預約的是<span class="fs-4 text-secondary">
+                                首次體驗課程-基礎
+                            </span></li>
+                            <li class="mb-2">上課預約報到日：2021/07/21</li>
+                            <li class="mb-2">預約人：Joanne Chen</li>
+                            <li class="mb-2">年齡：18 歲</li>
+                            <li class="mb-2">性別：女</li>
+                            <li class="mb-2">電子信箱：example123@gmail.com</li>
+                            <li class="mb-2">手機號碼：0912-345-678</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-sm-2"></div>
+    </div>
+
+    <div class="row  mb-lg-104 mb-sm-80 mb-88">
+        <div class="col-lg-4 col-sm-3"></div>
+        <div class="col-lg-4 col-sm-6 col-12">
+            <p class="fs-4 text-primary text-center mb-2">上課注意事項</p>
+            <p class="fs-5 text-primary mb-6">第一次上課請提前 10-15 分鐘至櫃檯報到，請攜帶毛巾、水 .穿著運動服、乾淨室內運動鞋。 如欲更改體驗時間請提前通知我們喔！</p>
+            <a class="fs-4 text-white bg-secondary w-100 py-2 text-center rounded rounded-5" href="index.html">返回首頁</a>
+        </div>
+        <div class="col-lg-4 col-sm-3"></div>
+    </div>
+</div>
+

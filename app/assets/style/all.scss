@@ -1,4 +1,12 @@
-@import './helpers/_base.scss';
+@import "../../../node_modules/bootstrap/scss/functions";
+@import "./helpers/variables";
+@import "../../../node_modules/bootstrap/scss/variables";
+@import "./helpers/utilities";
+@import "../../../node_modules/bootstrap/scss/bootstrap";
+
 @import './helpers/_swiper.scss';
-// @import './helpers/_helper.scss';
-@import './layout/_index.scss';
+@import './helpers/_timeicon.scss';
+@import './helpers/_validate.scss';
+
+@import './helpers/_base.scss';
+@import './helpers/_index.scss';

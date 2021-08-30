@@ -14,7 +14,7 @@
   </head>
 
   <body>
-    <header class="bg-light py-md-18 py-lg-4">
+    <header class="bg-light py-4 position-relative">
       <div class="container-lg">
           <ul class="list-unstyled d-md-flex justify-content-md-between align-items-center">
             <li class="d-flex justify-content-between align-items-center">
@@ -60,8 +60,12 @@
             </a>
           </div>
         </div>
-        
       </div>
+      <div class="d-md-flex flex-md-column position-fixed top-50 end-0 translate-middle-y me-md-3 d-md-block d-none">
+        <img class="rounded-circle my-md-2 bg-primary" src="https://hexschool.github.io/webLayoutTraining1st/week1/facebook.svg" alt="facebook">
+        <img class="rounded-circle my-md-2 bg-primary" src="https://hexschool.github.io/webLayoutTraining1st/week1/instagram-alt.svg" alt="instagram">
+        <img class="rounded-circle my-md-2 bg-primary" src="https://hexschool.github.io/webLayoutTraining1st/week1/line.svg" alt="line">
+    </div>
     </header>
 
     <%- contents %>
@@ -113,6 +117,7 @@
       </div>
     </footer>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/validate.js/0.13.1/validate.min.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script>
       (function(d) {
