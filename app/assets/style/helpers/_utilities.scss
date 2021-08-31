@@ -11,8 +11,11 @@ $utilities: (
             100: 100%,
             auto: auto,
             36:36px,
+            56:56px,
             150:150px,
             165:165px,
+            210:210px,
+            255:255px,
             330:330px,
             445:445px
         )
@@ -28,10 +31,19 @@ $utilities: (
             100: 100%,
             auto: auto,
             36:36px,
+            196:196px,
             150:150px,
+            161:161px,
+            214:214px,
             238:238px,
             165:165px,
+            195:195px,
+            210:210px,
             215:215px,
+            216:216px,
+            323:323px,
+            350:350px,
+            360:360px,
             445:445px,
             628:628px
         )
@@ -66,10 +78,12 @@ $utilities: (
         values: map-merge($spacers, 
             (
                 auto: auto,
+                12:12px,
                 72:72px,
                 80:80px,
                 88:88px,
-                104:104px
+                104:104px,
+                110:110px
             )
         )
     ),
@@ -79,7 +93,7 @@ $utilities: (
     //     class: px,
     //     values:
     //     (
-
+    //         6:6px
     //     )
     // ),
     "padding-y": (
@@ -97,6 +111,8 @@ $utilities: (
         class: pb,
         values:
         (
+            52:52px,
+            56:56px,
             64:64px
         )
     ),
@@ -105,5 +121,14 @@ $utilities: (
         property: overflow-y,
         class: overflow-y,
         values: auto hidden visible scroll,
+    ),
+    "font-size": (
+        responsive: true,
+        rfs: true,
+        property: font-size,
+        class: fs,
+        values: (
+            32:32px
+        )
     ),
 );
