@@ -21,14 +21,21 @@ var swiper = new Swiper(".mySwiper1", {
 });
 
 var swiper = new Swiper(".mySwiper2", {
-  slidesPerView: "auto",
+  slidesPerView: 4,
   spaceBetween: 30,
   // pagination: {
   //   el: ".swiper-pagination",
   //   clickable: true,
   // },
 });
-
+var swiper = new Swiper(".mySwiper3", {
+  slidesPerView: 3,
+  spaceBetween: 30,
+  // pagination: {
+  //   el: ".swiper-pagination",
+  //   clickable: true,
+  // },
+});
 const constraints = {
   touch: {
     presence: {

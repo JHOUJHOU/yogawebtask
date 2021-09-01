@@ -12,11 +12,14 @@ $utilities: (
             auto: auto,
             36:36px,
             56:56px,
+            96:96px,
+            106:106px,
             150:150px,
             165:165px,
             210:210px,
             255:255px,
             330:330px,
+            350:350px,
             445:445px
         )
     ),
@@ -31,6 +34,7 @@ $utilities: (
             100: 100%,
             auto: auto,
             36:36px,
+            96:96px,
             196:196px,
             150:150px,
             161:161px,
@@ -45,7 +49,8 @@ $utilities: (
             350:350px,
             360:360px,
             445:445px,
-            628:628px
+            628:628px,
+            341:341px
         )
     ),
     "margin-x": (
@@ -79,6 +84,8 @@ $utilities: (
             (
                 auto: auto,
                 12:12px,
+                30:30px,
+                54:54px,
                 72:72px,
                 80:80px,
                 88:88px,
@@ -129,6 +136,15 @@ $utilities: (
         class: fs,
         values: (
             32:32px
+        )
+    ),
+    "padding-top": (
+        responsive: true,
+        property: padding-top,
+        class: pt,
+        values:
+        (
+            56:56px,
         )
     ),
 );
