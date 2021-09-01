@@ -8233,6 +8233,14 @@ fieldset:disabled .btn {
   width: 56px !important;
 }
 
+.w-96 {
+  width: 96px !important;
+}
+
+.w-106 {
+  width: 106px !important;
+}
+
 .w-150 {
   width: 150px !important;
 }
@@ -8251,6 +8259,10 @@ fieldset:disabled .btn {
 
 .w-330 {
   width: 330px !important;
+}
+
+.w-350 {
+  width: 350px !important;
 }
 
 .w-445 {
@@ -8291,6 +8303,10 @@ fieldset:disabled .btn {
 
 .h-36 {
   height: 36px !important;
+}
+
+.h-96 {
+  height: 96px !important;
 }
 
 .h-196 {
@@ -8351,6 +8367,10 @@ fieldset:disabled .btn {
 
 .h-628 {
   height: 628px !important;
+}
+
+.h-341 {
+  height: 341px !important;
 }
 
 .mh-100 {
@@ -8953,6 +8973,14 @@ fieldset:disabled .btn {
   margin-bottom: 12px !important;
 }
 
+.mb-30 {
+  margin-bottom: 30px !important;
+}
+
+.mb-54 {
+  margin-bottom: 54px !important;
+}
+
 .mb-72 {
   margin-bottom: 72px !important;
 }
@@ -9382,44 +9410,8 @@ fieldset:disabled .btn {
   padding-bottom: 12px !important;
 }
 
-.pt-0 {
-  padding-top: 0 !important;
-}
-
-.pt-1 {
-  padding-top: 0.25rem !important;
-}
-
-.pt-2 {
-  padding-top: 0.5rem !important;
-}
-
-.pt-3 {
-  padding-top: 1rem !important;
-}
-
-.pt-4 {
-  padding-top: 1.25rem !important;
-}
-
-.pt-5 {
-  padding-top: 1.5rem !important;
-}
-
-.pt-6 {
-  padding-top: 2rem !important;
-}
-
-.pt-7 {
-  padding-top: 2.25rem !important;
-}
-
-.pt-8 {
-  padding-top: 2.5rem !important;
-}
-
-.pt-9 {
-  padding-top: 3rem !important;
+.pt-56 {
+  padding-top: 56px !important;
 }
 
 .pe-0 {
@@ -9957,6 +9949,12 @@ fieldset:disabled .btn {
   .w-sm-56 {
     width: 56px !important;
   }
+  .w-sm-96 {
+    width: 96px !important;
+  }
+  .w-sm-106 {
+    width: 106px !important;
+  }
   .w-sm-150 {
     width: 150px !important;
   }
@@ -9971,6 +9969,9 @@ fieldset:disabled .btn {
   }
   .w-sm-330 {
     width: 330px !important;
+  }
+  .w-sm-350 {
+    width: 350px !important;
   }
   .w-sm-445 {
     width: 445px !important;
@@ -9992,6 +9993,9 @@ fieldset:disabled .btn {
   }
   .h-sm-36 {
     height: 36px !important;
+  }
+  .h-sm-96 {
+    height: 96px !important;
   }
   .h-sm-196 {
     height: 196px !important;
@@ -10037,6 +10041,9 @@ fieldset:disabled .btn {
   }
   .h-sm-628 {
     height: 628px !important;
+  }
+  .h-sm-341 {
+    height: 341px !important;
   }
   .flex-sm-fill {
     -webkit-box-flex: 1 !important;
@@ -10503,6 +10510,12 @@ fieldset:disabled .btn {
   .mb-sm-12 {
     margin-bottom: 12px !important;
   }
+  .mb-sm-30 {
+    margin-bottom: 30px !important;
+  }
+  .mb-sm-54 {
+    margin-bottom: 54px !important;
+  }
   .mb-sm-72 {
     margin-bottom: 72px !important;
   }
@@ -10832,35 +10845,8 @@ fieldset:disabled .btn {
     padding-top: 12px !important;
     padding-bottom: 12px !important;
   }
-  .pt-sm-0 {
-    padding-top: 0 !important;
-  }
-  .pt-sm-1 {
-    padding-top: 0.25rem !important;
-  }
-  .pt-sm-2 {
-    padding-top: 0.5rem !important;
-  }
-  .pt-sm-3 {
-    padding-top: 1rem !important;
-  }
-  .pt-sm-4 {
-    padding-top: 1.25rem !important;
-  }
-  .pt-sm-5 {
-    padding-top: 1.5rem !important;
-  }
-  .pt-sm-6 {
-    padding-top: 2rem !important;
-  }
-  .pt-sm-7 {
-    padding-top: 2.25rem !important;
-  }
-  .pt-sm-8 {
-    padding-top: 2.5rem !important;
-  }
-  .pt-sm-9 {
-    padding-top: 3rem !important;
+  .pt-sm-56 {
+    padding-top: 56px !important;
   }
   .pe-sm-0 {
     padding-right: 0 !important;
@@ -11025,6 +11011,12 @@ fieldset:disabled .btn {
   .w-md-56 {
     width: 56px !important;
   }
+  .w-md-96 {
+    width: 96px !important;
+  }
+  .w-md-106 {
+    width: 106px !important;
+  }
   .w-md-150 {
     width: 150px !important;
   }
@@ -11039,6 +11031,9 @@ fieldset:disabled .btn {
   }
   .w-md-330 {
     width: 330px !important;
+  }
+  .w-md-350 {
+    width: 350px !important;
   }
   .w-md-445 {
     width: 445px !important;
@@ -11060,6 +11055,9 @@ fieldset:disabled .btn {
   }
   .h-md-36 {
     height: 36px !important;
+  }
+  .h-md-96 {
+    height: 96px !important;
   }
   .h-md-196 {
     height: 196px !important;
@@ -11105,6 +11103,9 @@ fieldset:disabled .btn {
   }
   .h-md-628 {
     height: 628px !important;
+  }
+  .h-md-341 {
+    height: 341px !important;
   }
   .flex-md-fill {
     -webkit-box-flex: 1 !important;
@@ -11571,6 +11572,12 @@ fieldset:disabled .btn {
   .mb-md-12 {
     margin-bottom: 12px !important;
   }
+  .mb-md-30 {
+    margin-bottom: 30px !important;
+  }
+  .mb-md-54 {
+    margin-bottom: 54px !important;
+  }
   .mb-md-72 {
     margin-bottom: 72px !important;
   }
@@ -11900,35 +11907,8 @@ fieldset:disabled .btn {
     padding-top: 12px !important;
     padding-bottom: 12px !important;
   }
-  .pt-md-0 {
-    padding-top: 0 !important;
-  }
-  .pt-md-1 {
-    padding-top: 0.25rem !important;
-  }
-  .pt-md-2 {
-    padding-top: 0.5rem !important;
-  }
-  .pt-md-3 {
-    padding-top: 1rem !important;
-  }
-  .pt-md-4 {
-    padding-top: 1.25rem !important;
-  }
-  .pt-md-5 {
-    padding-top: 1.5rem !important;
-  }
-  .pt-md-6 {
-    padding-top: 2rem !important;
-  }
-  .pt-md-7 {
-    padding-top: 2.25rem !important;
-  }
-  .pt-md-8 {
-    padding-top: 2.5rem !important;
-  }
-  .pt-md-9 {
-    padding-top: 3rem !important;
+  .pt-md-56 {
+    padding-top: 56px !important;
   }
   .pe-md-0 {
     padding-right: 0 !important;
@@ -12093,6 +12073,12 @@ fieldset:disabled .btn {
   .w-lg-56 {
     width: 56px !important;
   }
+  .w-lg-96 {
+    width: 96px !important;
+  }
+  .w-lg-106 {
+    width: 106px !important;
+  }
   .w-lg-150 {
     width: 150px !important;
   }
@@ -12107,6 +12093,9 @@ fieldset:disabled .btn {
   }
   .w-lg-330 {
     width: 330px !important;
+  }
+  .w-lg-350 {
+    width: 350px !important;
   }
   .w-lg-445 {
     width: 445px !important;
@@ -12128,6 +12117,9 @@ fieldset:disabled .btn {
   }
   .h-lg-36 {
     height: 36px !important;
+  }
+  .h-lg-96 {
+    height: 96px !important;
   }
   .h-lg-196 {
     height: 196px !important;
@@ -12173,6 +12165,9 @@ fieldset:disabled .btn {
   }
   .h-lg-628 {
     height: 628px !important;
+  }
+  .h-lg-341 {
+    height: 341px !important;
   }
   .flex-lg-fill {
     -webkit-box-flex: 1 !important;
@@ -12639,6 +12634,12 @@ fieldset:disabled .btn {
   .mb-lg-12 {
     margin-bottom: 12px !important;
   }
+  .mb-lg-30 {
+    margin-bottom: 30px !important;
+  }
+  .mb-lg-54 {
+    margin-bottom: 54px !important;
+  }
   .mb-lg-72 {
     margin-bottom: 72px !important;
   }
@@ -12968,35 +12969,8 @@ fieldset:disabled .btn {
     padding-top: 12px !important;
     padding-bottom: 12px !important;
   }
-  .pt-lg-0 {
-    padding-top: 0 !important;
-  }
-  .pt-lg-1 {
-    padding-top: 0.25rem !important;
-  }
-  .pt-lg-2 {
-    padding-top: 0.5rem !important;
-  }
-  .pt-lg-3 {
-    padding-top: 1rem !important;
-  }
-  .pt-lg-4 {
-    padding-top: 1.25rem !important;
-  }
-  .pt-lg-5 {
-    padding-top: 1.5rem !important;
-  }
-  .pt-lg-6 {
-    padding-top: 2rem !important;
-  }
-  .pt-lg-7 {
-    padding-top: 2.25rem !important;
-  }
-  .pt-lg-8 {
-    padding-top: 2.5rem !important;
-  }
-  .pt-lg-9 {
-    padding-top: 3rem !important;
+  .pt-lg-56 {
+    padding-top: 56px !important;
   }
   .pe-lg-0 {
     padding-right: 0 !important;
@@ -13161,6 +13135,12 @@ fieldset:disabled .btn {
   .w-xl-56 {
     width: 56px !important;
   }
+  .w-xl-96 {
+    width: 96px !important;
+  }
+  .w-xl-106 {
+    width: 106px !important;
+  }
   .w-xl-150 {
     width: 150px !important;
   }
@@ -13175,6 +13155,9 @@ fieldset:disabled .btn {
   }
   .w-xl-330 {
     width: 330px !important;
+  }
+  .w-xl-350 {
+    width: 350px !important;
   }
   .w-xl-445 {
     width: 445px !important;
@@ -13196,6 +13179,9 @@ fieldset:disabled .btn {
   }
   .h-xl-36 {
     height: 36px !important;
+  }
+  .h-xl-96 {
+    height: 96px !important;
   }
   .h-xl-196 {
     height: 196px !important;
@@ -13241,6 +13227,9 @@ fieldset:disabled .btn {
   }
   .h-xl-628 {
     height: 628px !important;
+  }
+  .h-xl-341 {
+    height: 341px !important;
   }
   .flex-xl-fill {
     -webkit-box-flex: 1 !important;
@@ -13707,6 +13696,12 @@ fieldset:disabled .btn {
   .mb-xl-12 {
     margin-bottom: 12px !important;
   }
+  .mb-xl-30 {
+    margin-bottom: 30px !important;
+  }
+  .mb-xl-54 {
+    margin-bottom: 54px !important;
+  }
   .mb-xl-72 {
     margin-bottom: 72px !important;
   }
@@ -14036,35 +14031,8 @@ fieldset:disabled .btn {
     padding-top: 12px !important;
     padding-bottom: 12px !important;
   }
-  .pt-xl-0 {
-    padding-top: 0 !important;
-  }
-  .pt-xl-1 {
-    padding-top: 0.25rem !important;
-  }
-  .pt-xl-2 {
-    padding-top: 0.5rem !important;
-  }
-  .pt-xl-3 {
-    padding-top: 1rem !important;
-  }
-  .pt-xl-4 {
-    padding-top: 1.25rem !important;
-  }
-  .pt-xl-5 {
-    padding-top: 1.5rem !important;
-  }
-  .pt-xl-6 {
-    padding-top: 2rem !important;
-  }
-  .pt-xl-7 {
-    padding-top: 2.25rem !important;
-  }
-  .pt-xl-8 {
-    padding-top: 2.5rem !important;
-  }
-  .pt-xl-9 {
-    padding-top: 3rem !important;
+  .pt-xl-56 {
+    padding-top: 56px !important;
   }
   .pe-xl-0 {
     padding-right: 0 !important;
@@ -14229,6 +14197,12 @@ fieldset:disabled .btn {
   .w-xxl-56 {
     width: 56px !important;
   }
+  .w-xxl-96 {
+    width: 96px !important;
+  }
+  .w-xxl-106 {
+    width: 106px !important;
+  }
   .w-xxl-150 {
     width: 150px !important;
   }
@@ -14243,6 +14217,9 @@ fieldset:disabled .btn {
   }
   .w-xxl-330 {
     width: 330px !important;
+  }
+  .w-xxl-350 {
+    width: 350px !important;
   }
   .w-xxl-445 {
     width: 445px !important;
@@ -14264,6 +14241,9 @@ fieldset:disabled .btn {
   }
   .h-xxl-36 {
     height: 36px !important;
+  }
+  .h-xxl-96 {
+    height: 96px !important;
   }
   .h-xxl-196 {
     height: 196px !important;
@@ -14309,6 +14289,9 @@ fieldset:disabled .btn {
   }
   .h-xxl-628 {
     height: 628px !important;
+  }
+  .h-xxl-341 {
+    height: 341px !important;
   }
   .flex-xxl-fill {
     -webkit-box-flex: 1 !important;
@@ -14775,6 +14758,12 @@ fieldset:disabled .btn {
   .mb-xxl-12 {
     margin-bottom: 12px !important;
   }
+  .mb-xxl-30 {
+    margin-bottom: 30px !important;
+  }
+  .mb-xxl-54 {
+    margin-bottom: 54px !important;
+  }
   .mb-xxl-72 {
     margin-bottom: 72px !important;
   }
@@ -15104,35 +15093,8 @@ fieldset:disabled .btn {
     padding-top: 12px !important;
     padding-bottom: 12px !important;
   }
-  .pt-xxl-0 {
-    padding-top: 0 !important;
-  }
-  .pt-xxl-1 {
-    padding-top: 0.25rem !important;
-  }
-  .pt-xxl-2 {
-    padding-top: 0.5rem !important;
-  }
-  .pt-xxl-3 {
-    padding-top: 1rem !important;
-  }
-  .pt-xxl-4 {
-    padding-top: 1.25rem !important;
-  }
-  .pt-xxl-5 {
-    padding-top: 1.5rem !important;
-  }
-  .pt-xxl-6 {
-    padding-top: 2rem !important;
-  }
-  .pt-xxl-7 {
-    padding-top: 2.25rem !important;
-  }
-  .pt-xxl-8 {
-    padding-top: 2.5rem !important;
-  }
-  .pt-xxl-9 {
-    padding-top: 3rem !important;
+  .pt-xxl-56 {
+    padding-top: 56px !important;
   }
   .pe-xxl-0 {
     padding-right: 0 !important;
@@ -15592,6 +15554,36 @@ ul, li, h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, p, table, th, td, 
 
 .space-seven {
   background: url("https://hexschool.github.io/webLayoutTraining1st/yoga-week8/woman in white tank top and white pants bending her body by the window.jpg") no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.teacher-first {
+  background: url("https://hexschool.github.io/webLayoutTraining1st/yoga-week8/teacher-1.png") no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.course {
+  background: url("https://hexschool.github.io/webLayoutTraining1st/yoga-week8/photo-1540206276207-3af25c08abc4.jpeg") no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.teacher-sec {
+  background: url("https://hexschool.github.io/webLayoutTraining1st/yoga-week8/teacher-2.png") no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.teacher-three {
+  background: url("https://hexschool.github.io/webLayoutTraining1st/yoga-week8/teacher-4.png") no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.teacher-four {
+  background: url("https://hexschool.github.io/webLayoutTraining1st/yoga-week8/teacher-3.png") no-repeat;
   background-size: cover;
   background-position: center center;
 }
