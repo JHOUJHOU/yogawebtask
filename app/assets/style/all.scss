@@ -4,9 +4,9 @@
 @import "./helpers/utilities";
 @import "../../../node_modules/bootstrap/scss/bootstrap";
 
-@import './helpers/_swiper.scss';
-@import './helpers/_timeicon.scss';
-@import './helpers/_validate.scss';
+@import './components/_swiper.scss';
+@import './components/_timeicon.scss';
+@import './components/_validate.scss';
 
 @import './helpers/_base.scss';
-@import './helpers/_index.scss';
+@import './helpers/_background.scss';
