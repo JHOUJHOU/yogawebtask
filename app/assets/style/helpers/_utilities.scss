@@ -12,6 +12,7 @@ $utilities: (
             auto: auto,
             36:36px,
             56:56px,
+            60:60px,
             96:96px,
             106:106px,
             150:150px,
@@ -20,6 +21,7 @@ $utilities: (
             255:255px,
             330:330px,
             350:350px,
+            418:418px,
             445:445px
         )
     ),
@@ -34,23 +36,25 @@ $utilities: (
             100: 100%,
             auto: auto,
             36:36px,
+            60:60px,
             96:96px,
-            196:196px,
             150:150px,
             161:161px,
-            214:214px,
-            238:238px,
             165:165px,
             195:195px,
+            196:196px,
             210:210px,
+            214:214px,
             215:215px,
             216:216px,
             323:323px,
+            238:238px,
+            341:341px,
             350:350px,
             360:360px,
+            418:418px,
             445:445px,
-            628:628px,
-            341:341px
+            628:628px
         )
     ),
     "margin-x": (
@@ -94,22 +98,23 @@ $utilities: (
             )
         )
     ),
-    // "padding-x": (
-    //     responsive: true,
-    //     property: padding-right padding-left,
-    //     class: px,
-    //     values:
-    //     (
-    //         6:6px
-    //     )
-    // ),
+    "padding-x": (
+        responsive: true,
+        property: padding-right padding-left,
+        class: px,
+        values:
+        (
+            56:56px
+        )
+    ),
     "padding-y": (
         responsive: true,
         property: padding-top padding-bottom,
         class: py,
         values:
         (
-            12:12px
+            12:12px,
+            64:64px
         )
     ),
     "padding-bottom": (
@@ -120,7 +125,8 @@ $utilities: (
         (
             52:52px,
             56:56px,
-            64:64px
+            64:64px,
+            72:72px
         )
     ),
     "overflow": (
